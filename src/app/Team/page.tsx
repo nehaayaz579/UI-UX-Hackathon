@@ -5,6 +5,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
 const Team = () => {
@@ -13,24 +14,24 @@ const Team = () => {
       <Header />
       <div className="items-center text-[#252B42] space-y-6 mt-10">
         <h3
-          className={` text-center font-bold text-[16px] text-myDark hover:text-blue-500`}
+          className="text-center font-bold text-[16px] text-myDark hover:text-blue-500"
         >
           WHAT WE DO
         </h3>
         <h1
-          className={` text-center font-bold text-[38px] md:text-[48px] lg:text-[58px] text-myDark hover:text-blue-500`}
+          className="text-center font-bold text-[38px] md:text-[48px] lg:text-[58px] hover:text-blue-500"
         >
           Innovation tailored for you
         </h1>
         <div className="flex justify-center sm:justify-center md:justify-center lg:justify-center space-x-4">
           <Link href="/">
-            <h3 className={`font-bold text-sm text-myDark hover:text-blue-500`}>
+            <h3 className="font-bold text-sm text-myDark hover:text-blue-500">
               Home
             </h3>
           </Link>
           <FaAngleRight className="text-myGrey" />
           <Link href="/shop">
-            <h3 className={`font-bold text-sm text-myGrey hover:text-blue-500`}>
+            <h3 className="font-bold text-sm text-myGrey hover:text-blue-500">
               Shop
             </h3>
           </Link>
@@ -46,11 +47,15 @@ const Team = () => {
             <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
-                    alt="content"
+                  <Image
                     className="object-cover object-center h-full w-full"
                     src="/images/teamcard4.png"
+                     alt="content"
+                     width={34}
+                     height={26}
                   />
+                   
+                  
                 </div>
                 <div className="pl-32 py-5">
                   <h5 className="text-[22px] mt-6 tracking-wider text-[#252B42] font-bold">
@@ -113,10 +118,12 @@ const Team = () => {
               {/*pic2 */}
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
-                    alt="content"
+                  <Image
                     className="object-cover object-center h-full w-full"
+                    alt="content"
                     src="/images/teamcard5.png"
+                    width={64}
+                    height={96}
                   />
                 </div>
                 <div className="pl-32 py-5">
@@ -179,10 +186,12 @@ const Team = () => {
               {/*pic2*/}
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
+                  <Image
                     alt="content"
                     className="object-cover object-center h-full w-full"
                     src="/images/teamcard6.png"
+                    width={64}
+                    height={96}
                   />
                 </div>
                 <div className="pl-32 py-5">
@@ -250,10 +259,12 @@ const Team = () => {
             <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
+                  <Image
                     alt="content"
                     className="object-cover object-center h-full w-full"
                     src="/images/teamcard1.png"
+                    width={64}
+                    height={96}
                   />
                 </div>
                 <div className="pl-32 py-5">
@@ -316,10 +327,12 @@ const Team = () => {
               {/*pic2 */}
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
+                  <Image
                     alt="content"
                     className="object-cover object-center h-full w-full"
                     src="/images/teamcard2.png"
+                    width={64}
+                    height={96}
                   />
                 </div>
                 <div className="pl-32 py-5">
@@ -382,10 +395,12 @@ const Team = () => {
               {/*pic2*/}
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
+                  <Image
                     alt="content"
                     className="object-cover object-center h-full w-full"
                     src="/images/teamcard3.png"
+                    width={64}
+                    height={96}
                   />
                 </div>
                 <div className="pl-32 py-5">
@@ -454,10 +469,12 @@ const Team = () => {
             <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
+                  <Image
                     alt="content"
                     className="object-cover object-center h-full w-full"
                     src="/images/Aboutpiccard1.png"
+                    width={64}
+                    height={96}
                   />
                 </div>
                 <div className="pl-32 py-5">
@@ -521,10 +538,12 @@ const Team = () => {
               {/*pic2 */}
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
+                  <Image
                     alt="content"
                     className="object-cover object-center h-full w-full"
                     src="/images/Aboutpiccard2.png"
+                    width={64}
+                    height={96}
                   />
                 </div>
                 <div className="pl-32 py-5">
@@ -587,10 +606,12 @@ const Team = () => {
               {/*pic2*/}
               <div className="p-4 md:w-1/3 sm:mb-0 mb-6  hover:scale-110 active:scale-10 transition-all">
                 <div className="h-64 w-96 overflow-hidden">
-                  <img
+                  <Image
                     alt="content"
                     className="object-cover  object-center h-full w-full"
                     src="/images/Aboutpiccard3.png"
+                    width={64}
+                    height={96}
                   />
                 </div>
                 <div className="pl-32 py-5">

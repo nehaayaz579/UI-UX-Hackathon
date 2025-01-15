@@ -135,10 +135,12 @@ const Hero = () => {
 
           {/* Right Image */}
           <div className="lg:max-w-lg lg:w-full lg:mr-40 md:w-1/2 w-5/6">
-            <img
+            <Image
               className="object-cover object-center rounded mx-auto"
               alt="hero"
               src="/images/herogreenpic.png"
+              width={640}
+              height={960}
             />
           </div>
         </div>
@@ -148,10 +150,12 @@ const Hero = () => {
         <div className="container  mx-auto flex flex-col-reverse pt-5 md:flex-row px-5 py-16 items-center">
           <div className="mt-7 ">
             <div className="lg:max-w-lg h-auto  lg:w-full lg:ml-40 md:w-1/2 w-5/6">
-              <img
+              <Image
                 className="object-cover object-center rounded mx-auto"
                 alt="hero"
                 src="/images/herowhitepic.png"
+                width={640}
+                height={960}
               />
             </div>
           </div>
@@ -201,10 +205,12 @@ const Hero = () => {
           <div className="flex flex-wrap -m-4 justify-center">
             <div className="p-4 w-[350px] hover:scale-105 active:scale-10 transition-all">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/images/herocard1.png"
                   alt="blog"
+                  width={64}
+                  height={96}
                 />
                 <div className="p-6">
                   <div className="flex gap-3">
@@ -221,10 +227,10 @@ const Hero = () => {
                   <h1 className="title-font text-[19px] tracking-wide trafont-medium text-gray-800 mb-3">
                     Loudest a la Madison #1
                     <br />
-                    (L'integral)
+                    (Lintegral)
                   </h1>
                   <p className="leading-relaxed mb-3 text-gray-400 text-[14px] tracking-wider">
-                    We focus on ergonomics and meeting you where you work. It's
+             '       We focus on ergonomics and meeting you where you work. Its
                     only a keystroke away.
                   </p>
                   <div className="flex gap-14 ">
@@ -259,10 +265,12 @@ const Hero = () => {
             </div>
             <div className="p-4 w-[350px] hover:scale-105 active:scale-10 transition-all ">
               <div className="h-full  border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   className="lg:h-48  md:h-36 w-full object-cover object-center"
                   src="/images/herocard2.png"
                   alt="blog"
+                  width={64}
+                  height={96}
                 />
                 <div className="p-6">
                   <div className="flex gap-3">
@@ -279,10 +287,10 @@ const Hero = () => {
                   <h1 className="title-font text-[19px] tracking-wide trafont-medium text-gray-800 mb-3">
                     Loudest a la Madison #1
                     <br />
-                    (L'integral)
+                    (Lintegral)
                   </h1>
                   <p className="leading-relaxed mb-3 text-gray-400 text-[14px] tracking-wider">
-                    We focus on ergonomics and meeting you where you work. It's
+                    We focus on ergonomics and meeting you where you work. Its
                     only a keystroke away.
                   </p>
                   <div className="flex gap-14 ">
@@ -317,10 +325,12 @@ const Hero = () => {
             </div>
             <div className="p-4 w-[350px] hover:scale-105 active:scale-10 transition-all">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src="/images/herocard3.png"
                   alt="blog"
+                  width={64}
+                  height={96}
                 />
                 <div className="p-6">
                   <div className="flex gap-3">
@@ -337,10 +347,10 @@ const Hero = () => {
                   <h1 className="title-font text-[19px] tracking-wide trafont-medium text-gray-800 mb-3">
                     Loudest a la Madison #1
                     <br />
-                    (L'integral)
+                    (L<span>'</span>integral)
                   </h1>
                   <p className="leading-relaxed mb-3 text-gray-400 text-[14px] tracking-wider">
-                    We focus on ergonomics and meeting you where you work. It's
+                    We focus on ergonomics and meeting you where you work. Its
                     only a keystroke away.
                   </p>
                   <div className="flex gap-14 ">

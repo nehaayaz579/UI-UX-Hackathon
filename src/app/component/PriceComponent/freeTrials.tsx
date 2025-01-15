@@ -1,6 +1,5 @@
 "use client";
 import { Montserrat } from "next/font/google";
-import Image from "next/image";
 import React from "react";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";

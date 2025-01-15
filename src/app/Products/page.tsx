@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import Topheader2 from "../component/Topheader2";
 import Header from "../component/Header";
 import Footer from "../component/Footer";

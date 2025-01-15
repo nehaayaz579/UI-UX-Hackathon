@@ -32,10 +32,12 @@ const About = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
+            <Image
               className="object-cover object-center rounded"
               alt="hero"
               src="/images/Aboutpic1.png"
+              width={640}
+              height={960}
             />
           </div>
         </div>
@@ -112,10 +114,12 @@ const About = () => {
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
             <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
               <div className="h-64 w-96 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="/images/Aboutpiccard1.png"
+                  width={64}
+                  height={96}
                 />
               </div>
               <div className="pl-32 py-5">
@@ -172,10 +176,12 @@ const About = () => {
             {/*pic2 */}
             <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
               <div className="h-64 w-96 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="/images/Aboutpiccard2.png"
+                  width={64}
+                  height={96}
                 />
               </div>
               <div className="pl-32 py-5">
@@ -231,10 +237,12 @@ const About = () => {
             {/*pic2*/}
             <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
               <div className="h-64 w-96 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="/images/Aboutpiccard3.png"
+                  width={64}
+                  height={96}
                 />
               </div>
               <div className="pl-32 py-5">
