@@ -227,10 +227,10 @@ const Hero = () => {
                   <h1 className="title-font text-[19px] tracking-wide trafont-medium text-gray-800 mb-3">
                     Loudest a la Madison #1
                     <br />
-                    (Lintegral)
+                    {/* (L&apos;integral) */}
                   </h1>
                   <p className="leading-relaxed mb-3 text-gray-400 text-[14px] tracking-wider">
-             '       We focus on ergonomics and meeting you where you work. Its
+                    We focus on ergonomics and meeting you where you work. Its
                     only a keystroke away.
                   </p>
                   <div className="flex gap-14 ">
@@ -286,8 +286,8 @@ const Hero = () => {
                   </div>
                   <h1 className="title-font text-[19px] tracking-wide trafont-medium text-gray-800 mb-3">
                     Loudest a la Madison #1
-                    <br />
-                    (Lintegral)
+                    {/* <br />
+                    (L&apos;integral) */}
                   </h1>
                   <p className="leading-relaxed mb-3 text-gray-400 text-[14px] tracking-wider">
                     We focus on ergonomics and meeting you where you work. Its
@@ -347,7 +347,7 @@ const Hero = () => {
                   <h1 className="title-font text-[19px] tracking-wide trafont-medium text-gray-800 mb-3">
                     Loudest a la Madison #1
                     <br />
-                    (L<span>'</span>integral)
+                    {/* (L&apos;integral) */}
                   </h1>
                   <p className="leading-relaxed mb-3 text-gray-400 text-[14px] tracking-wider">
                     We focus on ergonomics and meeting you where you work. Its
